@@ -1,0 +1,26 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "<!-- The first block of a blockchain is called genuses block and it does not have a prev hash\r SHA256 it is secure hasing algorithm (64 characters) hexadecimal 1 character takes 4 bytes\r So total 256 bytes of memory in the computer\r Immutable ledger (Record book)\r Distributed P2P network where the whole set of data is stored in all the computers in that network\r So that if there is change in any one all the systems would help in restoring the data very quickly\r Mining is all about predicting the nounce which would generate a hash that would be below the target\r And would help in creating a block\r Byzantine fault tolerence (castle and the commander story)(Less than 33.3% can be traitors)\r Consensius protocol\r 1) To check if the block added by the miner is not malicius by checking proof of work\r 2) To decide which block would be added first in simultaneous addtion of blocks.\r The block which would be spread in more than half of the network would be added first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewal-wq/kickstart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kewal-wq/kickstart/issues"
+  },
+  "homepage": "https://github.com/kewal-wq/kickstart#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "mocha": "^9.2.2",
+    "solc": "^0.8.13",
+    "web3": "^1.7.3"
+  }
+}
