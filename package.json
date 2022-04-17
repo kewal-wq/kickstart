@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/kewal-wq/kickstart#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "dotenv": "^16.0.0",
     "fs-extra": "^10.0.1",
     "mocha": "^9.2.2",
     "solc": "^0.8.13",
